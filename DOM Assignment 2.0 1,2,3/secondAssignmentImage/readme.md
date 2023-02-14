@@ -1,27 +1,24 @@
-// let accordian = document.querySelectorAll(".accordian h3");
-// accordian.forEach((element) => {
+# Second Assignment
+## About
 
-//   // grey color
-//   accordian.style.backgroundColor = '#D3D3D3'
-//   element.addEventListener("click", () => {
-//     let para = element.nextElementSibling;
-//     if (para.style.display === "block") {
-//       para.style.display = "none";
-//     } else {
-//       para.style.display = "block";
-//     }
-//   });
-// });
+### Task 1
+![](./task1Output.png)
 
-// task 1
-
+### Chaing background color of all h3
+### Solution
+```
 let par = document.getElementsByTagName("p");
-// console.log(par)
+console.log(par)
 par[2].style.display = "block";
 par[3].style.display = "block";
+```
 
-// task 2
+### Task 2
+![](./task2Output.png)
 
+### Adding new element -> Skills
+### Solution
+```
 let wrap = document.querySelector(".accordian-wrapper");
 let a = document.createElement("div");
 console.log(a)
@@ -49,3 +46,5 @@ aHeading.forEach((element) => {
     }
   });
 });
+
+```
